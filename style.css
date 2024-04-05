@@ -1,0 +1,138 @@
+
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  transition: 1.2s ease-in-out;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  font-size: 2vw;
+}
+header a{
+  margin-right: 2dvi;
+  text-decoration: none;
+}
+.logo{
+  font-weight: 600;
+  font-size: 3dvi;
+  pointer-events:none;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 2dvi;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 1dvi;
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  pointer-events:none;
+}
+/*The sections*/
+section{ 
+  background-size: cover; 
+  background-position:top;
+  height: 100vh;
+  padding-top: 15dvi;
+  padding-left: 5vh;
+  font-size: 3dvi;
+  padding-top: 40vh;
+  }
+  /*The first section*/
+#CurlyHairCare{
+  background-image: url("pexels-jean-alves-2123778.jpg"); 
+}
+#CurlyHairCare h1{
+  color: #7d91c8;
+  margin-top: 1dvi;
+  margin-bottom: 2dvi;
+}
+.Explor{
+  background-color: #7d91c8;
+}
+.DrySkin,
+.DrySkinCare-1,
+.DrySkinMasks,
+#otherpage{
+  border: 1px solid #fff;
+}
+  /*The second section*/
+  #Home{
+    background-image: url("judeus-samson-NqzPPiRP5ew-unsplash.jpg");
+  }
+  #Home h6{
+    color: #54695f;
+  }
+  #Home h4{
+  }
+  .CurlyHairCare-1{
+  background-color: #54695f;
+  }
+#Recipes{
+  background-image: url("caique-nascimento-2wxUU4AhyYA-unsplash.jpg");
+}
+div{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: space-around;
+}
+div h1{
+  text-align: center;
+  font-weight: 600;
+}
+div a{
+  border: 1px solid #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 100px 10px inset #ffffff30;
+}
+#DrySkinCar{
+  background-image: url("thought-catalog--v7EOw5SA4I-unsplash.jpg");
+  background-position: center;
+}
+#DrySkinCar h1{
+  color: #680011;
+  margin-top: 1dvi;
+  margin-bottom: 2dvi;
+}
+.Explor-1{
+  background-color: #680011;
+}
+.Explor-1:hover{
+  transition: 1.2s ease-in-out;
+}
+#FaceMasks{
+  background-image: url("jakob-owens-9-V-oxU4dtM-unsplash.jpg");
+  background-position:bottom;
+}
+#Us{
+  background-image:url("eugene-chystiakov-1naYFuwEhDU-unsplash.jpg");
+  background-position: center;
+}
+#Us h1{
+  color: #a8698d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#Us h5{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+#Lovely{
+  background-color: #a8698d;
+}
+
